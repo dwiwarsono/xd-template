@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meetings App</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="vendors/jquery.easings.min.js"></script>
+
+
+		<script>
+			$(document).ready(function() {
+	$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+
+	//methods
+	$.fn.fullpage.setAllowScrolling(false);
+});
+		</script>
+	</head>
+
+	<body>
+		<div id="fullpage">
+			<div class="section">
+				<div class="landing">
+					<div class="landingWrapper">
+						<div class="nav">
+							<a href="#"><img src="images/logo.png" alt="logo" class="logo"></a>
+							<div class="pages">
+								<a href="#">How It Works</a>
+								<a href="#">App Features</a>
+								<a href="#">About Us</a>
+								<a href="" class="btnOne">Sign Up</a>
+							</div>
+						</div>
+						<div class="landingContent">
+							<div class="contentLeft">
+								<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Meeting In An Instant.</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, natus porro! Porro assumenda quis non labore culpa, suscipit asperiores inventore molestias, dignissimos perferendis tempora odio hic, alias fuga quidem nesciunt.</p>
+								<a href="" class="btnTwo">Download App</a>
+							</div>
+							<div class="contentRight">
+								<img src="images/iphoneX_inHand.png" alt="iphone" class="iphoneHand">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="features">
+					<div class="date">
+						<img src="images/cal_icon.png" alt="calender icon">
+						<h1>Easily Set The Date</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+					<div class="time">
+						<img src="images/clock_icon.png" alt="clock icon">
+						<h1>Running Late?</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="groups">
+					<div class="groupsWrapper">
+						<div class="groupsContent">
+							<div class="contentLeft">
+								<img src="images/search_icon.png" alt="search icon">
+								<h1>Search Groups and Friends</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit et ab dolorum voluptatem libero soluta provident quos, quod omnis sunt praesentium. Officiis provident soluta in eos a non assumenda sit.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsa nam officia quo magnam nesciunt id assumenda culpa odio, in unde minus atque ad doloribus. Aliquam quae explicabo atque ipsum?</p>
+							</div>
+							<div class="contentRight">
+								<img src="images/people_groups.png" alt="contacts list image" class="groupsImage">
+							</div>
+						</div>
+					</div>
+					<div class="footer">
+						<p>© 2018 The Caf</p>
+						<div class="pagesRight">
+							<a href=""><p>Terms</p></a>
+							<a href=""><p>Privacy</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
